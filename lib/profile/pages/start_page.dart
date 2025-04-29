@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'registration_screen.dart';
+import '../../auth/registration/pages/registration_screen.dart';
 import 'main_screen.dart';
 
 class StartPage extends StatefulWidget {
@@ -24,7 +24,7 @@ class _StartPageState extends State<StartPage> {
     if (isAuth) {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => MainScreen()),
+        MaterialPageRoute(builder: (context) => RegistrationScreen()),
       );
     } else {
       Navigator.pushReplacement(

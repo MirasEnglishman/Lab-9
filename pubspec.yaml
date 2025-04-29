@@ -14,7 +14,7 @@ dependencies:
   json_annotation: ^4.9.0
   flutter_screenutil: ^5.9.3
   retrofit_generator: ^9.1.9
-  retrofit: ^4.0.1
+  retrofit: ^4.4.2
   dio: ^5.8.0+1
   dio_web_adapter: ^2.1.1
   shared_preferences: ^2.5.3
@@ -22,9 +22,16 @@ dependencies:
   bloc: 9.0.0
   cupertino_icons: ^1.0.8
   meta: ^1.16.0
+  firebase_messaging: ^15.2.5
+  firebase_core: ^3.13.0
+  firebase_database: ^11.3.5
+  analyzer: ^7.4.4
+  googleapis_auth: ^2.0.0
+  permission_handler: ^12.0.0+1
+  flutter_launcher_icons: ^0.14.3
 
 dev_dependencies:
-  json_serializable: ^6.9.4
+  json_serializable: ^6.9.5
   build_runner: ^2.4.15
   flutter_test:
     sdk: flutter
@@ -32,3 +39,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/registration-form.png
+
+
+flutter_launcher_icons:
+  android: true
+  ios: false 
+  image_path: "assets/registration-form.png"
