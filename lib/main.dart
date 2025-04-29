@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 import 'package:lab_9_1/post/bloc/post_bloc.dart';
 import 'package:lab_9_1/profile/pages/start_page.dart';
@@ -19,6 +21,7 @@ void main() async { // Изменено на async
   
 }
 
+
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -35,4 +38,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
